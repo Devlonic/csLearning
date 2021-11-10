@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="energy.Energy" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABIAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Energy\Energy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="energy.electricity.Electricity" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Energy\Electicity\Electricity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="energy.fuel.Badfuel" Collapsed="true">
+    <Position X="7.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Energy\Fuel\Concrete\Badfuel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="energy.fuel.Diesel" Collapsed="true">
+    <Position X="2.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Energy\Fuel\Concrete\Diesel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="energy.fuel.Petrol" Collapsed="true">
+    <Position X="5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Energy\Fuel\Concrete\Petrol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="energy.fuel.Fuel" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAEAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Energy\Fuel\Fuel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="energy.fuel.Tank">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAEAAAAAAABAAAAAAAAAACAAACCCAAAAAAAAAAQAA=</HashCode>
+      <FileName>Energy\Fuel\Tank.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="fuel" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
